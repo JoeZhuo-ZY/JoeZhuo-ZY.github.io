@@ -17,4 +17,4 @@ My research interests are broadly across machine learning (ML) and artificial in
 - **Any-shot Learning:** Addressing the model accuracy degradation caused by data scarcity with data augmentation and semi-supervised approaches, for zero-shot, few-shot and imbalanced classification.
 - **Anomaly/Fault Diagnosis:** Diagnosing anomaly and fault datasets including the tasks of classification, detection and localization, particularly for industrial process optimization and control.
 
-For more details, you can find my [curriculum vitae](../assets/curriculum_vitae.pdf) and [publications](../_pages/publications.md).
+For more details, you can find my [curriculum vitae](../assets/Curriculum_Vitae.pdf) and [publications](../_pages/publications.md).
