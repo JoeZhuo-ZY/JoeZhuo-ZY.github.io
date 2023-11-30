@@ -14,7 +14,7 @@ description              : &description "Phd, Zhejiang University"
 url                      : "https://jacobzhuo.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JacobZhuo/JacobZhuo.github.io"
-teaser                   :  "person.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
 future                   : true
@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Yue Zhuo"
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   bio              : "PhD, Zhejiang University"
   location         : "China"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Zzau7DwAAAAJ&hl=en"
   email            : "zhuoy1995@zju.edu.cn"
-  researchgate     :  "https://www.researchgate.net/profile/Yue-Zhuo-10"
+  researchgate     : "https://www.researchgate.net/profile/Yue-Zhuo-10"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : 
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
