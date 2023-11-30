@@ -7,5 +7,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
+I just received my PhD (2023) in Control Science and Engineering from Zhejiang University on the topic of reliable and trustworthy Machine Learning with particular focus on data-driven manufacturing and industrial applications.
 
-Yue Zhuo received PhD at Zhejiang University in 2023. He aims to address reliability and trustworthiness of machine learning. His research is primarily focused on explainable AI, adversarial robustness, optimization, and data augmentation. The resulting methods offer reliable solutions for learning from cross-domain datasets, particularly in manufacturing applications. 
+My research interests are broadly across machine learning and artificial intelligence, and building more reliable, trustworthy and robust intelligent application, ensuring beneficial outcomes for people and society. Topics of interest include:
+
+- Item **Strong** 
