@@ -9,7 +9,7 @@ redirect_from:
 ---
 I just received my PhD (2023) in Control Science and Engineering from Zhejiang University on the topic of reliable and trustworthy machine learning with particular focus on data-driven **manufacturing** and **industrial** applications.
 
-My research interests are broadly across machine learning (ML) and artificial intelligence (AI), including thier explainability, robustness, and reliability, ensuring beneficial outcomes for people and society. Topics of interest include:
+My research interests are broadly across machine learning (ML) and artificial intelligence (AI), including their explainability, robustness, and reliability, ensuring beneficial outcomes for people and society. Topics of interest include:
 
 - **Explainable AI:** Computing feature attribution to output prediction for explaining deep models, applicable for the tasks like anomaly root cause localization.
 - **Adversarial Robusness:** Exploring ML model resilience against perturbations, including adversarial attack and countermeasures, formal verification, and robust training.
