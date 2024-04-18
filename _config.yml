@@ -11,9 +11,9 @@ title                    : "Yue Zhuo"
 title_separator          : "-"
 name                     : &name "Yue Zhuo"
 description              : &description "Phd, Zhejiang University"
-url                      : "https://jacobzhuo.github.io/"
+url                      : "https://JoeZhuo-ZY.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "JacobZhuo/JacobZhuo.github.io"
+repository               : "JoeZhuo-ZY/JoeZhuo-ZY.github.io"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
