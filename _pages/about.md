@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am currently working as the Schmidit AI for Science Postdoctral Research Associate at Cornell University. I received my PhD (2023) in Control Science and Engineering from Zhejiang University on the topic of **reliable** and **trustworthy** machine learning with particular focus on data-driven **manufacturing** and **industrial** applications. I was the Research Fellow at Nanyang Technological Univiersity (2024).
+I am currently working as the Schmidt AI for Science Postdoctoral Associate at Cornell University. I received my PhD (2023) in Control Science and Engineering from Zhejiang University on the topic of **reliable** and **trustworthy** machine learning with particular focus on data-driven **manufacturing** and **industrial** applications. I was the Research Fellow at Nanyang Technological Univiersity (2024).
 
 My research interests are broadly across machine learning (ML) and artificial intelligence (AI), including their explainability, robustness, and reliability, ensuring beneficial outcomes for people and society. Topics of interest include:
 
