@@ -14,7 +14,6 @@ My research lies broadly in **trustworthy machine learning**, with an emphasis o
 
 My current and recent research interests include:
 
-- **AI for Plant Science:** Developing vision and generative AI methods for plant phenotyping, pathology analysis, and structural reconstruction, with the goal of enabling interpretable and scalable plant intelligence for agriculture and climate resilience.
 - **Computer Vision and 3D Reconstruction:** Building end-to-end pipelines for perception tasks such as semantic segmentation, monocular depth estimation, and single-view 3D reconstruction for scientific and engineering applications.
 - **Explainable AI:** Designing feature attribution and interpretation methods for deep models, especially for high-stakes tasks such as anomaly diagnosis, fault localization, and scientific decision support.
 - **Robust and Reliable Machine Learning:** Studying adversarial robustness, failure modes, verification, and reliable model behavior under perturbations and domain shifts.
