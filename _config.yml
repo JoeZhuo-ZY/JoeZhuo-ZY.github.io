@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yue Zhuo"
 title_separator          : "-"
 name                     : &name "Yue Zhuo"
-description              : &description "Phd, Zhejiang University"
+description              : &description "AI for energy, PV analysis, computer vision, and explainable AI at Cornell University"
 url                      : "https://JoeZhuo-ZY.github.io/"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JoeZhuo-ZY/JoeZhuo-ZY.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yue Zhuo"
   avatar           : "profile.jpg"
-  bio              : "PhD, Zhejiang University"
-  location         : "China"
+  bio              : "Schmidt AI in Science Postdoctoral Fellow, Cornell University"
+  location         : "Ithaca, NY, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=Zzau7DwAAAAJ&hl=en"
-  email            : "zhuoy1995@zju.edu.cn"
+  email            : "yz3422@cornell.edu"
   researchgate     : "https://www.researchgate.net/profile/Yue-Zhuo-10"
   uri              :
   bitbucket        :
@@ -96,13 +96,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "JoeZhuo-ZY"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "yue-zhuo-28b27a268"
   orcid            : 
   pinterest        :
   soundcloud       :
