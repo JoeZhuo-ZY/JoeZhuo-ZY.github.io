@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**Trustworthy AI | Computer Vision | AI for Science**
+**Trustworthy AI \| Computer Vision \| AI for Science**
 
 I am a **Schmidt AI in Science Postdoctoral Fellow at Cornell University**, where I develop trustworthy and interpretable AI for scientific and engineering applications. My research spans explainable machine learning, computer vision, scientific modeling, and the reliability of AI systems in real-world environments.
 
