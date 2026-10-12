@@ -1,8 +1,10 @@
 ---
 layout: archive
 title: "CV"
-permalink: ../assets/Curriculum_Vitae.pdf
+permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
+
+[Download my academic curriculum vitae (PDF)](/assets/Curriculum_Vitae.pdf).
