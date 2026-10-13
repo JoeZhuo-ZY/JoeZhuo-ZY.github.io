@@ -16,13 +16,6 @@ In our **IEEE TPAMI 2026** paper, we introduce **ABIGX** (**A**dversarial fault 
 
 **Paper:** [IEEE TPAMI, 48(9), 10906–10923 (2026)](https://doi.org/10.1109/TPAMI.2026.3689327) · **[Preprint](https://arxiv.org/abs/2311.05316)** · **[Code](https://github.com/qianjc3391/ABIGX)**
 
-<figure class="research-figure research-figure--compact">
-  <a href="{{ '/images/publications/abigx-framework.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size figure: Original ABIGX framework connecting AFR and integrated gradients with CP and RBC">
-    <img src="{{ '/images/publications/abigx-framework.gif' | relative_url }}" alt="Original ABIGX framework connecting AFR and integrated gradients with CP and RBC" loading="eager" width="820" height="410" decoding="async">
-  </a>
-  <figcaption>The framework connects adversarial fault reconstruction (AFR) and integrated gradients with classical contribution plots (CP) and reconstruction-based contributions (RBC). <a href="https://ieeexplore.ieee.org/document/11501742#fig1" target="_blank" rel="noopener">Source: ABIGX, TPAMI 2026, Figure 1</a>. Click the image to view the original at full size.</figcaption>
-</figure>
-
 ## Why explainable fault diagnosis needs a new framework
 
 Industrial fault detection and classification (FDC) typically involves two questions:
@@ -68,13 +61,6 @@ $$
 $$
 
 ABIGX thus explains the model by examining the transition **from a model-informed, fault-suppressed reference back to the observed fault**. Compared with a fixed zero baseline or an unrelated normal sample, this makes the attribution more specific to the fault instance.
-
-<figure class="research-figure">
-  <a href="{{ '/images/publications/abigx-counterfactual-baseline.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size figure: ABIGX and vanilla IG reconstruction, baselines, and attribution paths for a WinCLIP industrial anomaly example">
-    <img src="{{ '/images/publications/abigx-counterfactual-baseline.gif' | relative_url }}" alt="ABIGX and vanilla IG reconstruction, baselines, and attribution paths for a WinCLIP industrial anomaly example" loading="lazy" width="587" height="820" decoding="async">
-  </a>
-  <figcaption>A task-informed AFR baseline changes the path used for attribution. This industrial-image example compares the reconstructions and explanations of ABIGX and vanilla IG. <a href="https://ieeexplore.ieee.org/document/11501742#fig3" target="_blank" rel="noopener">Source: ABIGX, TPAMI 2026, Figure 3</a>. Click the image to view the original at full size.</figcaption>
-</figure>
 
 ## What is theoretically new?
 
