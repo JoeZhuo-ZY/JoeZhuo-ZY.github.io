@@ -18,7 +18,7 @@ In our **IEEE TPAMI 2026** paper, we introduce **ABIGX** (**A**dversarial fault 
 
 <figure class="research-figure research-figure--compact">
   <a href="{{ '/images/publications/abigx-framework.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size figure: Original ABIGX framework connecting AFR and integrated gradients with CP and RBC">
-    <img src="{{ '/images/publications/abigx-framework.gif' | relative_url }}" alt="Original ABIGX framework connecting AFR and integrated gradients with CP and RBC" loading="eager" decoding="async">
+    <img src="{{ '/images/publications/abigx-framework.gif' | relative_url }}" alt="Original ABIGX framework connecting AFR and integrated gradients with CP and RBC" loading="eager" width="820" height="410" decoding="async">
   </a>
   <figcaption>The framework connects adversarial fault reconstruction (AFR) and integrated gradients with classical contribution plots (CP) and reconstruction-based contributions (RBC). <a href="https://ieeexplore.ieee.org/document/11501742#fig1" target="_blank" rel="noopener">Source: ABIGX, TPAMI 2026, Figure 1</a>. Click the image to view the original at full size.</figcaption>
 </figure>
@@ -71,7 +71,7 @@ ABIGX thus explains the model by examining the transition **from a model-informe
 
 <figure class="research-figure">
   <a href="{{ '/images/publications/abigx-counterfactual-baseline.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size figure: ABIGX and vanilla IG reconstruction, baselines, and attribution paths for a WinCLIP industrial anomaly example">
-    <img src="{{ '/images/publications/abigx-counterfactual-baseline.gif' | relative_url }}" alt="ABIGX and vanilla IG reconstruction, baselines, and attribution paths for a WinCLIP industrial anomaly example" loading="lazy" decoding="async">
+    <img src="{{ '/images/publications/abigx-counterfactual-baseline.gif' | relative_url }}" alt="ABIGX and vanilla IG reconstruction, baselines, and attribution paths for a WinCLIP industrial anomaly example" loading="lazy" width="587" height="820" decoding="async">
   </a>
   <figcaption>A task-informed AFR baseline changes the path used for attribution. This industrial-image example compares the reconstructions and explanations of ABIGX and vanilla IG. <a href="https://ieeexplore.ieee.org/document/11501742#fig3" target="_blank" rel="noopener">Source: ABIGX, TPAMI 2026, Figure 3</a>. Click the image to view the original at full size.</figcaption>
 </figure>
@@ -107,7 +107,7 @@ We evaluated ABIGX against classical contribution methods and modern XAI techniq
 
 <figure class="research-figure">
   <a href="{{ '/images/publications/abigx-wafer-attributions.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size figure: Wafer-map attribution comparisons for Center, Edge-Loc, Edge-Ring, and Scratch failure patterns">
-    <img src="{{ '/images/publications/abigx-wafer-attributions.gif' | relative_url }}" alt="Wafer-map attribution comparisons for Center, Edge-Loc, Edge-Ring, and Scratch failure patterns" loading="lazy" decoding="async">
+    <img src="{{ '/images/publications/abigx-wafer-attributions.gif' | relative_url }}" alt="Wafer-map attribution comparisons for Center, Edge-Loc, Edge-Ring, and Scratch failure patterns" loading="lazy" width="539" height="820" decoding="async">
   </a>
   <figcaption>Wafer-map explanations connect feature attribution with manufacturing inspection. Red outlines indicate annotated fault regions; rows compare ABIGX with alternative explainers. <a href="https://ieeexplore.ieee.org/document/11501742#fig7" target="_blank" rel="noopener">Source: ABIGX, TPAMI 2026, Figure 7</a>. Click the image to view the original at full size.</figcaption>
 </figure>
@@ -118,14 +118,14 @@ The results on TEP likewise illustrate the benefits of fault-aware reconstructio
 
 <figure class="research-figure">
   <a href="{{ '/images/publications/abigx-tep-attributions.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size figure: TEP sensor-variable attribution comparisons for fault detection and classification">
-    <img src="{{ '/images/publications/abigx-tep-attributions.gif' | relative_url }}" alt="TEP sensor-variable attribution comparisons for fault detection and classification" loading="lazy" decoding="async">
+    <img src="{{ '/images/publications/abigx-tep-attributions.gif' | relative_url }}" alt="TEP sensor-variable attribution comparisons for fault detection and classification" loading="lazy" width="820" height="622" decoding="async">
   </a>
   <figcaption>Sensor-level explanations illustrate which process variables support fault detection and classification. The annotated fault-related variables provide a reference for comparing explainers. <a href="https://ieeexplore.ieee.org/document/11501742#fig6" target="_blank" rel="noopener">Source: ABIGX, TPAMI 2026, Figure 6</a>. Click the image to view the original at full size.</figcaption>
 </figure>
 
 <figure class="research-figure">
   <a href="{{ '/images/publications/abigx-mvtec-attributions.gif' | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-size figure: WinCLIP industrial anomaly attributions across five MVTec-AD image categories">
-    <img src="{{ '/images/publications/abigx-mvtec-attributions.gif' | relative_url }}" alt="WinCLIP industrial anomaly attributions across five MVTec-AD image categories" loading="lazy" decoding="async">
+    <img src="{{ '/images/publications/abigx-mvtec-attributions.gif' | relative_url }}" alt="WinCLIP industrial anomaly attributions across five MVTec-AD image categories" loading="lazy" width="536" height="820" decoding="async">
   </a>
   <figcaption>Visual inspection examples extend the comparison to a vision-transformer anomaly detector. Red outlines mark annotated defects across five MVTec-AD categories. <a href="https://ieeexplore.ieee.org/document/11501742#fig8" target="_blank" rel="noopener">Source: ABIGX, TPAMI 2026, Figure 8</a>. Click the image to view the original at full size.</figcaption>
 </figure>
