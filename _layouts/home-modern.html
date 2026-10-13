@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | default: 'Yue Zhuo' }} · Cornell University</title>
   <meta name="description" content="{{ page.excerpt | strip_html | escape }}">
-  <meta name="theme-color" content="#f8f8f5">
+  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Yue Zhuo · Trustworthy & Explainable AI">
@@ -17,30 +17,26 @@
 </head>
 <body class="yz-home">
   <a class="skip-link" href="#main-content">Skip to content</a>
-  <header class="site-header" id="top">
+  <header class="site-header">
     <div class="site-container header-inner">
-      <a class="site-brand" href="{{ '/' | relative_url }}" aria-label="Yue Zhuo homepage">
-        <span class="brand-monogram">YZ<span class="brand-dot">.</span></span>
-        <span class="brand-name">Yue Zhuo</span>
-      </a>
+      <a class="site-brand" href="{{ '/' | relative_url }}">Yue Zhuo</a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#writing">Writing</a>
-        <a href="#experience">Experience</a>
+        <a href="#highlights">Highlights</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/year-archive/' | relative_url }}">Posts</a>
+        <a href="{{ '/assets/Curriculum_Vitae.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV ↗</a>
       </nav>
-      <a class="nav-cv" href="{{ '/assets/Curriculum_Vitae.pdf' | relative_url }}" target="_blank" rel="noopener">CV <span aria-hidden="true">↗</span></a>
     </div>
   </header>
-  <main id="main-content">
+  <main id="main-content" class="main-content site-container">
     {{ content }}
   </main>
   <footer class="site-footer">
     <div class="site-container footer-inner">
       <span>© {{ 'now' | date: '%Y' }} Yue Zhuo</span>
-      <span>Built with Jekyll · Hosted on GitHub Pages</span>
-      <a href="#top" aria-label="Back to top">Back to top ↑</a>
+      <span><a href="mailto:yz3422@cornell.edu">Email</a> · <a href="https://scholar.google.com/citations?user=Zzau7DwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> · <a href="https://github.com/JoeZhuo-ZY" target="_blank" rel="noopener noreferrer">GitHub</a></span>
     </div>
   </footer>
 </body>
