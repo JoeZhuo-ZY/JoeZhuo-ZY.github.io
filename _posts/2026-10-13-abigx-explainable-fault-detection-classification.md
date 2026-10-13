@@ -1,5 +1,6 @@
 ---
 title: 'ABIGX: Explaining Why Industrial AI Detects a Fault'
+excerpt: 'How adversarial fault reconstruction and integrated gradients explain fault decisions across industrial sensors, wafer maps, and visual inspection.'
 date: 2026-10-13
 permalink: /posts/2026/10/abigx-explainable-fault-detection-classification/
 tags:
