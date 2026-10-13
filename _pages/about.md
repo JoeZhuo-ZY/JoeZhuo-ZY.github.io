@@ -30,7 +30,7 @@ I also apply **computer vision, foundation models, and geospatial AI** to indust
 
   <article class="publication-row" role="listitem">
     <a class="publication-figure" href="https://doi.org/10.1109/TPAMI.2026.3689327" target="_blank" rel="noopener noreferrer" aria-label="ABIGX paper">
-      <img src="{{ '/images/publications/abigx-framework.gif' | relative_url }}" alt="Original ABIGX paper figure linking adversarial fault reconstruction and integrated gradients to classical contribution methods" loading="lazy">
+      <img src="{{ '/images/publications/abigx-wafer-attributions.gif' | relative_url }}" alt="Original ABIGX wafer-map results comparing explanations of semiconductor failure patterns" loading="lazy">
       <span class="publication-badge">TPAMI</span>
     </a>
     <div class="publication-info">
