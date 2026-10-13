@@ -1,0 +1,35 @@
+/* Original paper figures, scoped to research posts. */
+.page__content .research-figure {
+  margin: 1.8rem 0 2rem;
+  text-align: center;
+}
+.page__content .research-figure > a {
+  display: block;
+  line-height: 0;
+}
+.page__content .research-figure img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #fff;
+}
+.page__content .research-figure--compact img {
+  max-width: 620px;
+}
+.page__content .research-figure figcaption {
+  margin-top: 0.7rem;
+  color: #59636d;
+  font-family: inherit;
+  font-size: 0.78em;
+  line-height: 1.5;
+  text-align: left;
+}
+.page__content .research-figure figcaption a {
+  white-space: normal;
+}
+@media (max-width: 600px) {
+  .page__content .research-figure { margin: 1.3rem 0 1.6rem; }
+  .page__content .research-figure figcaption { font-size: 0.82em; }
+}
