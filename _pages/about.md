@@ -15,7 +15,7 @@ I am a **Schmidt AI in Science Postdoctoral Fellow at Cornell University**. My r
 
 My methodological work covers **feature attribution, counterfactual explanations, adversarial robustness, formal verification, and uncertainty-aware evaluation**. My explainable AI research has been published in **IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)**.
 
-I also apply **computer vision, foundation models, and geospatial AI** to industrial fault diagnosis, urban energy systems, and scientific discovery. I received my Ph.D. from **Zhejiang University** in 2023 and was previously a Research Fellow at **Nanyang Technological University**, where I worked on multi-agent learning and industrial multi-robot planning.
+I also apply **computer vision, foundation models, and geospatial AI** to industrial fault diagnosis, urban energy systems, and scientific discovery. I received my Ph.D. from **Zhejiang University** in 2023 and was previously a Research Fellow at **Nanyang Technological University**.
 
 ## Research Directions
 
@@ -47,7 +47,7 @@ I also apply **computer vision, foundation models, and geospatial AI** to indust
 
   <article class="publication-row" role="listitem">
     <a class="publication-figure" href="https://doi.org/10.1016/j.apenergy.2026.128766" target="_blank" rel="noopener noreferrer" aria-label="Rooftop PV paper">
-      <img src="{{ '/images/publications/urban-pv-preview.svg' | relative_url }}" alt="Conceptual city rooftop solar mapping thumbnail" loading="lazy">
+      <img src="{{ '/images/publications/urban-pv-paper-overview.png' | relative_url }}" alt="Original Applied Energy paper figure showing the AI framework for urban rooftop PV mapping, spatiotemporal analysis, and adoption pathways" loading="lazy">
       <span class="publication-badge">Applied Energy</span>
     </a>
     <div class="publication-info">
@@ -63,7 +63,7 @@ I also apply **computer vision, foundation models, and geospatial AI** to indust
 
   <article class="publication-row" role="listitem">
     <a class="publication-figure" href="https://doi.org/10.1016/j.compag.2026.111774" target="_blank" rel="noopener noreferrer" aria-label="MIRAGE paper">
-      <img src="{{ '/images/publications/mirage-preview.svg' | relative_url }}" alt="Conceptual illustration of maize plant geometry reconstructed into a 3D biomechanical representation" loading="lazy">
+      <img src="{{ '/images/publications/mirage-paper-results.png' | relative_url }}" alt="Original MIRAGE paper figure showing maize leaf angle and curvature measurements and 3D skeletonization" loading="lazy">
       <span class="publication-badge">Comp. &amp; Elec. Ag.</span>
     </a>
     <div class="publication-info">
