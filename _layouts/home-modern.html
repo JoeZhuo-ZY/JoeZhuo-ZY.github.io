@@ -1,43 +1,54 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title | default: 'Yue Zhuo' }} · Cornell University</title>
+  <title>{{ site.title }} | Cornell University</title>
   <meta name="description" content="{{ page.excerpt | strip_html | escape }}">
   <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <meta property="og:type" content="profile">
-  <meta property="og:title" content="Yue Zhuo · Trustworthy & Explainable AI">
+  <link rel="icon" type="image/png" href="{{ '/images/site-logo.png' | relative_url }}">
+  <meta property="og:title" content="{{ site.title }} | Cornell University">
   <meta property="og:description" content="{{ page.excerpt | strip_html | escape }}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}/assets/profile.jpg">
-  <link rel="icon" type="image/png" href="{{ '/images/site-logo.png' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
   <link rel="stylesheet" href="{{ '/assets/css/home-modern.css' | relative_url }}">
 </head>
-<body class="yz-home">
+<body>
   <a class="skip-link" href="#main-content">Skip to content</a>
-  <header class="site-header">
-    <div class="site-container header-inner">
-      <a class="site-brand" href="{{ '/' | relative_url }}">Yue Zhuo</a>
-      <nav class="site-nav" aria-label="Primary navigation">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#highlights">Highlights</a>
+  <div class="wrapper">
+    <!-- Minimal Light sidebar: avatar, identity, affiliation, and academic links -->
+    <header>
+      <a class="image avatar" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} homepage">
+        <img src="{{ '/assets/profile.jpg' | relative_url }}" alt="Portrait of Yue Zhuo" width="160" height="160">
+      </a>
+      <h1>{{ site.title }}</h1>
+      <p class="profile-position">Schmidt AI in Science<br>Postdoctoral Fellow</p>
+      <a class="profile-affiliation" href="https://www.cornell.edu/" target="_blank" rel="noopener noreferrer">Cornell University</a>
+      <p class="profile-location">Ithaca, NY, USA</p>
+      <a class="profile-email" href="mailto:yz3422@cornell.edu">yz3422@cornell.edu</a>
+
+      <div class="social-icons" aria-label="Academic and professional profiles">
+        <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+        <a href="https://github.com/JoeZhuo-ZY" target="_blank" rel="noopener noreferrer" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/yue-zhuo-28b27a268/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+        <a href="{{ '/assets/Curriculum_Vitae.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Curriculum vitae" title="CV"><i class="ai ai-cv" aria-hidden="true"></i></a>
+      </div>
+      <nav class="profile-quicklinks" aria-label="More pages">
         <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <span class="separator">·</span>
         <a href="{{ '/year-archive/' | relative_url }}">Posts</a>
-        <a href="{{ '/assets/Curriculum_Vitae.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV ↗</a>
+        <span class="separator">·</span>
+        <a href="{{ '/assets/Curriculum_Vitae.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">CV</a>
       </nav>
-    </div>
-  </header>
-  <main id="main-content" class="main-content site-container">
-    {{ content }}
-  </main>
-  <footer class="site-footer">
-    <div class="site-container footer-inner">
-      <span>© {{ 'now' | date: '%Y' }} Yue Zhuo</span>
-      <span><a href="mailto:yz3422@cornell.edu">Email</a> · <a href="https://scholar.google.com/citations?user=Zzau7DwAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a> · <a href="https://github.com/JoeZhuo-ZY" target="_blank" rel="noopener noreferrer">GitHub</a></span>
-    </div>
-  </footer>
+    </header>
+    <section id="main-content" class="section-content">
+      {{ content }}
+      <p class="site-footnote">Based on <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener noreferrer">Minimal Light</a>. Powered by Jekyll · GitHub Pages.</p>
+    </section>
+  </div>
 </body>
 </html>
